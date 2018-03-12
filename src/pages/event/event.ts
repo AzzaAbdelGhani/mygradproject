@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { EventPage } from '../event/event';
 
 /**
- * Generated class for the HomePage page.
+ * Generated class for the EventPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,28 @@ import { EventPage } from '../event/event';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-event',
+  templateUrl: 'event.html',
 })
-export class HomePage {
+export class EventPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad EventPage');
   }
 
-  openEventPage(){
-    this.navCtrl.push(EventPage);
-  }
+  slider = [
+    {
+      title : 'Special Invitation',
+      image :"assets/imgs/music.png"
+    },
+    {
+      title : 'Location',
+      image :"assets/imgs/music.png"
+    }
+
+  ];
 
 }

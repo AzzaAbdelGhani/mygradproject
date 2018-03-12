@@ -11,12 +11,12 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
 
 
     <ion-card>
 
-        <img src="assets/imgs/music.png" height="300"> 
+        <img src="assets/imgs/music.png" height="250"> 
         
         <ion-item>
           <ion-icon ios="ios-musical-notes" md="md-musical-notes" item-start large></ion-icon>
@@ -33,7 +33,7 @@
         <ion-item>
           <span item-left>18 min</span>
           
-          <button ion-button icon-left clear item-end>
+          <button ion-button icon-left clear item-end (click)="openEventPage()">
             <ion-icon name="arrow-dropright-circle"></ion-icon>
             Show
           </button>
@@ -43,10 +43,10 @@
 
       <ion-card>
 
-        <img src="assets/imgs/chem.png" height="300"> 
+        <img src="assets/imgs/chem.png" height="250"> 
         
         <ion-item>
-          <ion-icon ios="ios-musical-notes" md="md-musical-notes" item-start large></ion-icon>
+          <ion-icon  name="people" item-start large></ion-icon>
           <h2>4th International Conference of Chemical Engineering & Industrial Biotechnology </h2>
            <h2> 2018- EI Compendex and ISI</h2>
           
@@ -61,7 +61,7 @@
         <ion-item>
           <span item-left>18 min</span>
           
-          <button ion-button icon-left clear item-end>
+          <button ion-button icon-left clear item-end (click)="openEventPage()">
             <ion-icon name="arrow-dropright-circle"></ion-icon>
             Show
           </button>

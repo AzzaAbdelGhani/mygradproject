@@ -10,7 +10,7 @@ import { HomePageModule } from '../pages/home/home.module';
 import { MessagesPageModule } from '../pages/messages/messages.module';
 import { ProfilePageModule } from '../pages/profile/profile.module';
 import { SearchPageModule } from '../pages/search/search.module';
-//import { HomePage } from '../pages/home/home';
+import { EventPageModule } from '../pages/event/event.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { SearchPageModule } from '../pages/search/search.module';
     TabsPageModule,
     MessagesPageModule,
     ProfilePageModule,
-    SearchPageModule
+    SearchPageModule,
+    EventPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

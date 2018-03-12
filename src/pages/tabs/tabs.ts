@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 import { MessagesPage } from '../messages/messages';
 import { ProfilePage } from '../profile/profile';
 import { HomePage } from '../home/home';
-import { SearchPage } from '../search/search';
+
 /**
  * Generated class for the TabsPage tabs.
  *
@@ -22,7 +22,7 @@ export class TabsPage {
   homeRoot = 'HomePage' ;
   profileRoot = 'ProfilePage' ;
   messagesRoot = 'MessagesPage' ;
-  searchRoot = 'SearchPage';
+  
 
 
   constructor() {}
